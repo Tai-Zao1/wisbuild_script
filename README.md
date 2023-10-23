@@ -1,10 +1,13 @@
-# 慧建驻版本
+# 慧建驻自动化测试
+
+## 慧建驻版本
 2.0.0
-#框架
+
+## 框架
 网易Airtest+Unitest
 
-#文件结构
-````
+##文件结构
+```
 ├─ demo                                 调试
 ├─ wisbuild                             测试脚本
 |   ├─  image                           上传的图片和无法定位的控件id使用图片
@@ -33,4 +36,4 @@
 |        ├─project_list                 项目列表
 |               ├─proj_filter_Page      筛选控件
 |               ├─proj_list_Page        项目列表页面
-````
+```
