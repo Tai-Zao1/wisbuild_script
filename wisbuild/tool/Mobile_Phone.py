@@ -17,7 +17,7 @@ class createPhone(unittest.TestCase):
         unittest.TestCase.__init__(self)
         self.poco = poco
 
-    #   拍照功能
+    #   随机获取手机号
     def moblie(self):
         for k in range(100):
             prelist = ["130", "131", "132", "133", "134", "135", "136", "137", "138", "139"

@@ -4,9 +4,12 @@
 2.0.0
 
 ## 框架
-网易Airtest+Unitest
+网易Airtest+poco+Unitest
+airtest：https://airtest.netease.com/
+
 
 ##文件结构
+
 ```
 ├─ demo                                 调试
 ├─ wisbuild                             测试脚本
@@ -36,4 +39,16 @@
 |        ├─project_list                 项目列表
 |               ├─proj_filter_Page      筛选控件
 |               ├─proj_list_Page        项目列表页面
+|        ├─recruitment_list             招工管理（作废）  
+|        ├─work_list                    工作列表
+|               ├─work_page             工作菜单
+|   ├─test_case                         测试用例存放
+|   ├─tool                              工具类脚本
+|        ├─Camera                       拍照
+|        ├─Generate_log                 测试报告
+|        ├─Mobile_Phone                 随机手机号
+|        ├─permission                   拍照权限
+|        ├─phone_devices                连接手机
+|        ├─upload_pic                   头像裁剪
+|        ├─work_type                    工种选择      
 ```
